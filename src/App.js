@@ -6,12 +6,10 @@ export default function App(){
     const [numero, setNumero ] = useState(0)
 
     function aumentar () {
-        numero++
-        console.log(numero)
+       setNumero(numero +1)
     }
     function diminuir () {
-        numero--
-        console.log(numero)
+        setNumero(numero -1)
     }
 
 
